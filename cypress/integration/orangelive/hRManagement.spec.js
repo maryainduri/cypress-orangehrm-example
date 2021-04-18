@@ -20,4 +20,12 @@ describe('hr should be able to add person to system', function () {
         cy.url().should("include","/dashboard")
             .log("Dashboard has been loaded, login OK");
     });
+
+    it.only('should be able login with custom commands', function () {
+
+        let userName = Cypress.env("userName");
+        let password = Cypress.env("password");
+
+        cy.login(userName,password);
+    });
 });
