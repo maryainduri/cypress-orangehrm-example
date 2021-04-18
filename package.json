@@ -1,0 +1,21 @@
+{
+  "name": "orangehrmlive-cypress-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "e2e testing"
+  ],
+  "author": {
+    "name": "Marya Induri",
+    "email": "marya.induri@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^7.1.0"
+  }
+}
