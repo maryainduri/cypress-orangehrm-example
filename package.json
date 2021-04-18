@@ -1,7 +1,7 @@
 {
   "name": "orangehrmlive-cypress-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "Cypress automation test framework against OrangeHRM Live app",
   "main": "",
   "scripts": {
     "test": "cypress open"
@@ -19,6 +19,7 @@
     "cypress": "^7.1.0"
   },
   "devDependencies": {
+    "cypress-tags": "^0.0.21",
     "cypress-terminal-report": "^3.0.3"
   }
 }
