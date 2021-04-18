@@ -1,6 +1,6 @@
 # cypress-orangelive-example
 
-This repository contains Cypress OrangeLiveDemo app e2e tests
+This repository contains [https://www.cypress.io]  OrangeLiveDemo app e2e tests.
 
 # contacts
 **name:** Marya Induri
